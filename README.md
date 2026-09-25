@@ -15,16 +15,10 @@ Dataset berisi **2.512 sampel** transaksi perbankan dengan fitur meliputi nomina
 
 ## Struktur Proyek
 
-| File                                                       | Deskripsi                                                           |
-| ---------------------------------------------------------- | ------------------------------------------------------------------- |
-| `[Clustering]_Submission_Akhir_BMLP_Muhammad_Ilham.ipynb`  | Notebook EDA, preprocessing, dan clustering K-Means                 |
-| `[Klasifikasi]_Submission_Akhir_BMLP_Muhammad_Ilham.ipynb` | Notebook klasifikasi berdasarkan hasil cluster                      |
-| `model_clustering.h5`                                      | Model K-Means yang sudah dilatih                                    |
-| `PCA_model_clustering.h5`                                  | Model PCA untuk reduksi dimensi & visualisasi cluster               |
-| `decision_tree_model.h5`                                   | Model Decision Tree (klasifikasi utama)                             |
-| `tuning_classification.h5`                                 | Model hasil hyperparameter tuning (GridSearchCV)                    |
-| `data_clustering.csv`                                      | Dataset hasil preprocessing + label cluster (Target)                |
-| `data_clustering_inverse.csv`                              | Dataset dengan nilai dikembalikan ke skala asli (inverse transform) |
+| File                                                       | Deskripsi                                           |
+| ---------------------------------------------------------- | --------------------------------------------------- |
+| `[Clustering]_Submission_Akhir_BMLP_Muhammad_Ilham.ipynb`  | Notebook EDA, preprocessing, dan clustering K-Means |
+| `[Klasifikasi]_Submission_Akhir_BMLP_Muhammad_Ilham.ipynb` | Notebook klasifikasi berdasarkan hasil cluster      |
 
 ## Metodologi
 
